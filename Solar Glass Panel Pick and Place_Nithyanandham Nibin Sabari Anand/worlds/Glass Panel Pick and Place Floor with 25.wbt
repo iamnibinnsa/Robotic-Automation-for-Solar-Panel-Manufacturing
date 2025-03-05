@@ -1,0 +1,1756 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/conveyors/protos/ConveyorBelt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/forklift/protos/Forklift.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/pallet/protos/WoodenPalletStack.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.012702142028763073 0.9975110755574741 -0.06935639644655738 0.36293280178732995
+  position -16.797094678732808 0.46663358110854314 6.5427029332180195
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 30 13
+  floorAppearance Parquetry {
+    type "light strip"
+    colorOverride 0.5 0.5 0.5
+  }
+  wallHeight 3
+}
+WoodenPalletStack {
+  translation 0 -5.9 0
+}
+WoodenPalletStack {
+  translation 1.34 -5.9 0
+  name "wooden pallet stack(1)"
+}
+DEF glass_1 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_2 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_3 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_4 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_5 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_6 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_7 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_8 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_9 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_10 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_11 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_12 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_13 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(12)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_14 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_15 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_16 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(15)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_17 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(16)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_18 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_19 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(18)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_20 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(19)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_21 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(20)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_22 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(21)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_23 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(22)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_24 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(23)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+DEF glass_25 Solid {
+  translation 1.5 -0.86 0.141
+  rotation 0 0 1 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 0.6
+      }
+      geometry Box {
+        size 1.5 0.9 0.003
+      }
+    }
+  ]
+  name "solid(24)"
+  boundingObject Box {
+    size 1.5 0.8 0.003
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.5 -0.86 0
+  children [
+    Pose {
+      translation -0.675 -0.405 0.06300000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 0.30000000000000004 0.18000000000000002
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.09000000000000001 0.098
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 -0.405 0.06300000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 0.30000000000000004 0.18000000000000002
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.09000000000000001 0.098
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.675 -0.405 0.06300000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 0.30000000000000004 0.18000000000000002
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.09000000000000001 0.098
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.675 0 0.06300000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 0.30000000000000004 0.18000000000000002
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.09000000000000001 0.098
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0 0.06300000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 0.30000000000000004 0.18000000000000002
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.09000000000000001 0.098
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.675 0 0.06300000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 0.30000000000000004 0.18000000000000002
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.09000000000000001 0.098
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.675 0.405 0.06300000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 0.30000000000000004 0.18000000000000002
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.09000000000000001 0.098
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.405 0.06300000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 0.30000000000000004 0.18000000000000002
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.09000000000000001 0.098
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.675 0.405 0.06300000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 0.30000000000000004 0.18000000000000002
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.09000000000000001 0.098
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 -0.405 0.007000000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 3 0.28
+            }
+          }
+          geometry Box {
+            size 1.5 0.09000000000000001 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0 0.007000000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 3 0.28
+            }
+          }
+          geometry Box {
+            size 1.5 0.09000000000000001 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.405 0.007000000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 3 0.28
+            }
+          }
+          geometry Box {
+            size 1.5 0.09000000000000001 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.675 0 0.11900000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 1.8 0.30000000000000004
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.9 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0 0.11900000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 1.8 0.30000000000000004
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.9 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.675 0 0.11900000000000001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 1.8 0.30000000000000004
+            }
+          }
+          geometry Box {
+            size 0.15000000000000002 0.9 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 -0.41000000000000003 0.133
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 3 0.16
+            }
+          }
+          geometry Box {
+            size 1.5 0.08 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 -0.246 0.133
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 3 0.16
+            }
+          }
+          geometry Box {
+            size 1.5 0.08 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 -0.08199999999999999 0.133
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 3 0.16
+            }
+          }
+          geometry Box {
+            size 1.5 0.08 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.08199999999999999 0.133
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 3 0.16
+            }
+          }
+          geometry Box {
+            size 1.5 0.08 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.24600000000000005 0.133
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 3 0.16
+            }
+          }
+          geometry Box {
+            size 1.5 0.08 0.014000000000000002
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0 0.41000000000000003 0.133
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_base_color.jpg"
+              ]
+              filtering 5
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_roughness.jpg"
+              ]
+              filtering 5
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_normal.jpg"
+              ]
+              filtering 5
+            }
+            occlusionMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/rough_pine/rough_pine_occlusion.jpg"
+              ]
+              filtering 5
+            }
+            textureTransform TextureTransform {
+              scale 3 0.16
+            }
+          }
+          geometry Box {
+            size 1.5 0.08 0.014000000000000002
+          }
+        }
+      ]
+    }
+  ]
+  name "wooden pallet"
+  model "wooden pallet"
+  boundingObject Pose {
+    translation 0 0 0.07
+    children [
+      Box {
+        size 1.5 0.9 0.14
+      }
+    ]
+  }
+}
+Robot {
+  translation 3.05 -0.88 0
+  rotation 0 0 -1 1.57
+  children [
+    Shape {
+      appearance DEF IRB_APPEARANCE PBRAppearance {
+        baseColor 1 0.45 0
+        roughness 0.1
+        metalness 0
+      }
+      geometry Mesh {
+        url [
+          "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/abb/irb/protos/Irb4600-40/meshes/base.obj"
+        ]
+      }
+    }
+    DEF LINK1_TRANSFORM HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.0014228899273914545
+        axis 0 0 1
+        anchor 0 0 0.159498
+      }
+      device [
+        RotationalMotor {
+          name "A motor"
+          minPosition -3.1415
+          maxPosition 3.1415
+          maxTorque 10000
+        }
+        PositionSensor {
+          name "A sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 0 0.159
+        rotation 0 0 -1 1.569999999999971
+        children [
+          Shape {
+            appearance USE IRB_APPEARANCE
+            geometry Mesh {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/abb/irb/protos/Irb4600-40/meshes/link_1.obj"
+              ]
+            }
+          }
+          DEF LINK2_TRANSFORM HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.00031209370377169613
+              axis 0 1 0
+              anchor 0.178445 -0.122498 0.334888
+            }
+            device [
+              RotationalMotor {
+                name "B motor"
+                minPosition -1.5708
+                maxPosition 2.61799
+                maxTorque 10000
+              }
+              PositionSensor {
+                name "B sensor"
+              }
+            ]
+            endPoint Solid {
+              translation 0.178445 -0.122498 0.334888
+              rotation 0 0.9999999999999999 0 0.2350000000000005
+              children [
+                Shape {
+                  appearance USE IRB_APPEARANCE
+                  geometry Mesh {
+                    url [
+                      "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/abb/irb/protos/Irb4600-40/meshes/link_2.obj"
+                    ]
+                  }
+                }
+                DEF LINK3_TRANSFORM HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.0003215882199724895
+                    axis 0 1 0
+                    anchor -0.003447 -0.0267 1.095594
+                  }
+                  device [
+                    RotationalMotor {
+                      name "C motor"
+                      minPosition -3.1415
+                      maxPosition 1.309
+                      maxTorque 10000
+                    }
+                    PositionSensor {
+                      name "C sensor"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation -0.003447 -0.0267 1.095594
+                    rotation 0 1 0 0.3529999999997784
+                    children [
+                      Shape {
+                        appearance USE IRB_APPEARANCE
+                        geometry Mesh {
+                          url [
+                            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/abb/irb/protos/Irb4600-40/meshes/link_3.obj"
+                          ]
+                        }
+                      }
+                      DEF LINK4_TRANSFORM HingeJoint {
+                        jointParameters HingeJointParameters {
+                          position 0.000249764093219184
+                          anchor 0.340095 0.149198 0.174998
+                        }
+                        device [
+                          RotationalMotor {
+                            name "D motor"
+                            minPosition -6.98132
+                            maxPosition 6.98132
+                            maxTorque 10000
+                          }
+                          PositionSensor {
+                            name "D sensor"
+                          }
+                        ]
+                        endPoint Solid {
+                          translation 0.340095 0.149198 0.174998
+                          rotation -1 0 0 0.00024976409315925844
+                          children [
+                            Shape {
+                              appearance USE IRB_APPEARANCE
+                              geometry Mesh {
+                                url [
+                                  "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/abb/irb/protos/Irb4600-40/meshes/link_4.obj"
+                                ]
+                              }
+                            }
+                            DEF LINK5_TRANSFORM HingeJoint {
+                              jointParameters HingeJointParameters {
+                                position 2.161716659883981e-07
+                                axis 0 1 0
+                                anchor 0.929888 0 0
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "E motor"
+                                  minPosition -2.18166
+                                  maxPosition 2.0944
+                                  maxTorque 10000
+                                }
+                                PositionSensor {
+                                  name "E sensor"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation 0.929888 0 1.119999999999963e-06
+                                rotation 0 1 0 0.9779999999999475
+                                children [
+                                  Shape {
+                                    appearance USE IRB_APPEARANCE
+                                    geometry Mesh {
+                                      url [
+                                        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/abb/irb/protos/Irb4600-40/meshes/link_5.obj"
+                                      ]
+                                    }
+                                  }
+                                  DEF LINK6_TRANSFORM HingeJoint {
+                                    jointParameters HingeJointParameters {
+                                      position 8.991563505550221e-08
+                                      anchor 0.125 0 0
+                                    }
+                                    device [
+                                      RotationalMotor {
+                                        name "F motor"
+                                        minPosition -6.98132
+                                        maxPosition 6.98132
+                                        maxTorque 10000
+                                      }
+                                      PositionSensor {
+                                        name "F sensor"
+                                      }
+                                    ]
+                                    endPoint Solid {
+                                      translation 0.1 5.040000000000105e-08 1.5400000000000335e-06
+                                      rotation 0.9999999999999992 -3.050000000000049e-08 2.030000000000024e-08 3.14
+                                      children [
+                                        TouchSensor {
+                                        }
+                                        DistanceSensor {
+                                          lookupTable [
+                                            0 0 0
+                                            1.5 1000 0
+                                          ]
+                                        }
+                                        VacuumGripper {
+                                          translation 0.04 0 0
+                                          children [
+                                            Pose {
+                                              translation -0.03 -0.13 0.14
+                                              rotation 1 0 0 1.5707996938995747
+                                              children [
+                                                Transform {
+                                                  rotation 0 1 0 -1.5708003061004252
+                                                  scale 0.007 0.007 0.004
+                                                  children [
+                                                    Shape {
+                                                      appearance PBRAppearance {
+                                                        baseColor 0.2 0.2 0.2
+                                                        roughness 1
+                                                        metalness 0
+                                                      }
+                                                      geometry Mesh {
+                                                        url [
+                                                          "Gripper Base Frame v1_meshed.dae"
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                          boundingObject Box {
+                                            size 0.003 0.9 1.5
+                                          }
+                                          physics Physics {
+                                          }
+                                          isOn TRUE
+                                          tensileStrength 6000
+                                          shearStrength 6000
+                                        }
+                                        Pose {
+                                          translation 0.06 0 0
+                                          rotation 0.5773502691896257 0.5773502691896257 0.5773502691896257 2.094399693899575
+                                        }
+                                        Shape {
+                                          appearance PBRAppearance {
+                                            baseColorMap ImageTexture {
+                                              url [
+                                                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+                                              ]
+                                            }
+                                            roughnessMap ImageTexture {
+                                              url [
+                                                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_roughness.jpg"
+                                              ]
+                                            }
+                                            normalMap ImageTexture {
+                                              url [
+                                                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_normal.jpg"
+                                              ]
+                                            }
+                                          }
+                                          geometry Mesh {
+                                            url [
+                                              "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/abb/irb/protos/Irb4600-40/meshes/link_6.obj"
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                      boundingObject Box {
+                                        size 0.003 0.65 0.85
+                                      }
+                                      physics Physics {
+                                        density 100
+                                      }
+                                    }
+                                  }
+                                ]
+                                boundingObject Pose {
+                                  translation 0 -0.0015 0
+                                  children [
+                                    Box {
+                                      size 0.159731 0.130998 0.160194
+                                    }
+                                  ]
+                                }
+                                physics Physics {
+                                  density 200
+                                }
+                              }
+                            }
+                          ]
+                          boundingObject Pose {
+                            translation 0.511874 0.003021 0
+                            children [
+                              Box {
+                                size 1.040973 0.228038 0.195956
+                              }
+                            ]
+                          }
+                          physics Physics {
+                            density 300
+                          }
+                        }
+                      }
+                    ]
+                    boundingObject Pose {
+                      translation 0.085806 0.199325 0.094072
+                      children [
+                        Box {
+                          size 0.533578 0.398651 0.472912
+                        }
+                      ]
+                    }
+                    physics Physics {
+                      density 400
+                    }
+                  }
+                }
+              ]
+              boundingObject Pose {
+                translation -0.003447 -0.061473 0.529095
+                children [
+                  Box {
+                    size 0.279997 0.256948 1.335994
+                  }
+                ]
+              }
+              physics Physics {
+                density 500
+              }
+            }
+          }
+        ]
+        boundingObject Pose {
+          translation 0.046699 0.049037 0.270246
+          children [
+            Box {
+              size 0.621392 0.540918 0.552493
+            }
+          ]
+        }
+        physics Physics {
+          density 1150
+        }
+      }
+    }
+  ]
+  name "IRB 4600/40"
+  boundingObject Pose {
+    translation -0.063119 0 0.106497
+    children [
+      Box {
+        size 0.676133 0.514411 0.213001
+      }
+    ]
+  }
+  locked TRUE
+  controller "ABB_IRB4600_40_Robot_controller"
+}
+ConveyorBelt {
+  translation -0.17 0.61 0
+  size 29.5 1.5 0.6
+  speed -0.5
+}
+Forklift {
+  translation 1.56 -3.02 0.81
+  rotation 0 0 1 1.5708
+  enablePhysics FALSE
+}
+Forklift {
+  translation 13.77 -4.77 0.81
+  rotation 0 0 1 -3.1415853071795863
+  name "forklift(1)"
+  enablePhysics FALSE
+}
+Forklift {
+  translation 13.77 -3.02 0.81
+  rotation 0 0 1 -3.1415853071795863
+  name "forklift(2)"
+  enablePhysics FALSE
+}

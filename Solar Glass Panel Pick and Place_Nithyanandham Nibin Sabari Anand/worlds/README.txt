@@ -1,0 +1,3 @@
+File "Glass Panel Pick and Place Floor with 25" runs longer due to limitations of Webots Simulation and Computation. It takes close to an hour to execute the pick and place of all the 25 panels.
+
+Hence, I have created a simulation file (world file) with 8 panels as it was able to handle anything less than 10 panels in a stack. Additionally, I removed some objects in this world to reduce the file size such that Webots can run the simulation.
